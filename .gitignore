@@ -1,7 +1,8 @@
 # Terraform
-.terraform/
+.terraform/*
 .terraform.lock.hcl
-
+*.tfstate*
+terraform.tfvars
 
 # PHP Storm
 *.idea

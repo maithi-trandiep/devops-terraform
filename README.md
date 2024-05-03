@@ -1,4 +1,8 @@
 # Guide d'utilisation : 
+Groupe: 
+Mai Thi Tran Diep
+Redureau Melvin
+
 
 Dans le ficher terraform.tfvars se trouve les différentes variables à remplacer pour faire fonctionner le projet. 
 
@@ -15,9 +19,15 @@ Voici une description de ces variables:
 - "privateKey" : Correspond à la clée privé utilisée pour la communication avec la VM 
 
 >[!NOTE]
-> "publicKey et "privateKey" sont générées avec la commande ssh -keygen
+> "publicKey et "privateKey" sont générées avec la commande:
+```sh
+ssh-keygen -t rsa -b 2048 -f awsDevOpsKeys
+``` 
 
 - "AWS_ACCESS_KEY_ID": Id de la clef d'accès au compte AWS
 - "AWS_SECRET_ACCESS_KEY" Clef d'accès au compte AWS
 >[!NOTE]
 > "AWS_ACCES_KEY_ID" et "AWS_SECRET_ACCESS_KEY" sont générées dans le compte AWS.
+
+
+Lien du git: https://github.com/maithi-trandiep/devops-terraform/
